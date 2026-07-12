@@ -1,0 +1,262 @@
+Question: What is the correct extension of a Java file?
+Option1: .java
+Option2: .class
+Option3: .jav
+Option4: .txt
+Answer: 0
+Difficulty: Easy
+SubjectCode: CS101
+Hint: Java source files use a 4-letter extension
+---
+
+Question: Which of the following is a valid variable name in Java?
+Option1: 1variable
+Option2: variable-name
+Option3: variable_name
+Option4: variable name
+Answer: 2
+Difficulty: Easy
+SubjectCode: CS101
+Hint: Underscore is allowed, but hyphen and space are not
+---
+
+Question: What is the size of int data type in Java?
+Option1: 2 bytes
+Option2: 4 bytes
+Option3: 8 bytes
+Option4: 1 byte
+Answer: 1
+Difficulty: Easy
+SubjectCode: CS101
+Hint: On most platforms, int is 32-bit
+---
+
+Question: Which keyword is used to define a constant in Java?
+Option1: const
+Option2: static
+Option3: final
+Option4: constant
+Answer: 2
+Difficulty: Easy
+SubjectCode: CS101
+Hint: The keyword is also used to prevent inheritance and method overriding
+---
+
+Question: What is the output of: System.out.println(10 + 20 + "Hello")?
+Option1: 30Hello
+Option2: Hello30
+Option3: 1020Hello
+Option4: Hello1020
+Answer: 0
+Difficulty: Medium
+SubjectCode: CS101
+Hint: Addition is left-associative
+---
+
+Question: Which loop is guaranteed to execute at least once?
+Option1: for
+Option2: while
+Option3: do-while
+Option4: All of the above
+Answer: 2
+Difficulty: Medium
+SubjectCode: CS101
+Hint: The condition is checked at the end of the loop body
+---
+
+Question: What is the default value of a boolean variable in Java?
+Option1: true
+Option2: false
+Option3: 0
+Option4: null
+Answer: 1
+Difficulty: Easy
+SubjectCode: CS101
+Hint: It's not true by default
+---
+
+Question: Which of the following is NOT a primitive data type in Java?
+Option1: int
+Option2: float
+Option3: char
+Option4: String
+Answer: 3
+Difficulty: Easy
+SubjectCode: CS101
+Hint: String is a class
+---
+
+Question: What does JVM stand for?
+Option1: Java Virtual Machine
+Option2: Java Variable Machine
+Option3: Java Very Machine
+Option4: Just Virtual Machine
+Answer: 0
+Difficulty: Easy
+SubjectCode: CS101
+Hint: It's the runtime environment for Java programs
+---
+
+Question: Which operator is used for logical AND in Java?
+Option1: &
+Option2: &&
+Option3: |
+Option4: ||
+Answer: 1
+Difficulty: Easy
+SubjectCode: CS101
+Hint: Short-circuit AND uses double ampersand
+---
+
+Question: What is the output of: System.out.println(5 % 2)?
+Option1: 2
+Option2: 2.5
+Option3: 1
+Option4: 0
+Answer: 2
+Difficulty: Easy
+SubjectCode: CS101
+Hint: Modulus gives remainder of division
+---
+
+Question: Which statement is used to exit a switch case?
+Option1: exit
+Option2: return
+Option3: break
+Option4: continue
+Answer: 2
+Difficulty: Easy
+SubjectCode: CS101
+Hint: It prevents fall-through to the next case
+---
+
+Question: What is method overloading?
+Option1: Multiple methods with same name but different parameters
+Option2: Multiple methods with same name and same parameters
+Option3: Multiple classes with same method name
+Option4: One method with multiple returns
+Answer: 0
+Difficulty: Medium
+SubjectCode: CS101
+Hint: Compile-time polymorphism
+---
+
+Question: Which package is automatically imported in Java?
+Option1: java.util
+Option2: java.io
+Option3: java.lang
+Option4: java.awt
+Answer: 2
+Difficulty: Medium
+SubjectCode: CS101
+Hint: It contains fundamental classes like String and System
+---
+
+Question: What is the purpose of a constructor?
+Option1: To destroy an object
+Option2: To create and initialize an object
+Option3: To hide data
+Option4: To inherit properties
+Answer: 1
+Difficulty: Medium
+SubjectCode: CS101
+Hint: Called automatically when 'new' keyword is used
+---
+
+Question: Which keyword is used to inherit a class in Java?
+Option1: implements
+Option2: extends
+Option3: inherits
+Option4: super
+Answer: 1
+Difficulty: Medium
+SubjectCode: CS101
+Hint: The child class uses this keyword
+---
+
+Question: What is the output of: System.out.println(10 > 20 ? "A" : "B")?
+Option1: A
+Option2: B
+Option3: true
+Option4: false
+Answer: 1
+Difficulty: Medium
+SubjectCode: CS101
+Hint: Ternary operator checks the condition before '?'
+---
+
+Question: Which of the following is used to take input in Java?
+Option1: System.out
+Option2: System.in
+Option3: System.err
+Option4: System.log
+Answer: 1
+Difficulty: Easy
+SubjectCode: CS101
+Hint: Used with Scanner class
+---
+
+Question: What is the correct way to declare an array of 10 integers?
+Option1: int[] arr = new int[10];
+Option2: int arr[] = new int(10);
+Option3: int arr = new int[10];
+Option4: int[10] arr;
+Answer: 0
+Difficulty: Medium
+SubjectCode: CS101
+Hint: Square brackets after type or variable name
+---
+
+Question: Which exception is thrown when accessing an array index out of bounds?
+Option1: NullPointerException
+Option2: ArrayIndexOutOfBoundsException
+Option3: IndexOutOfBoundsException
+Option4: ArithmeticException
+Answer: 1
+Difficulty: Easy
+SubjectCode: CS101
+Hint: Specific to arrays
+---
+
+Question: What is encapsulation?
+Option1: Hiding data and binding methods to it
+Option2: Creating multiple methods with same name
+Option3: Inheriting properties from parent
+Option4: Achieving multiple inheritance
+Answer: 0
+Difficulty: Medium
+SubjectCode: CS101
+Hint: Uses private fields and public methods
+---
+
+Question: Which access modifier provides the widest visibility?
+Option1: private
+Option2: default
+Option3: protected
+Option4: public
+Answer: 3
+Difficulty: Easy
+SubjectCode: CS101
+Hint: Accessible from anywhere
+---
+
+Question: What is the difference between JDK and JRE?
+Option1: JDK is for development, JRE for execution
+Option2: JRE is for development, JDK for execution
+Option3: Both are same
+Option4: JDK is older than JRE
+Answer: 0
+Difficulty: Hard
+SubjectCode: CS101
+Hint: JDK includes JRE plus development tools
+---
+
+Question: What is a final class in Java?
+Option1: A class that cannot be instantiated
+Option2: A class that cannot be inherited
+Option3: A class that has no methods
+Option4: A class that has only static methods
+Answer: 1
+Difficulty: Hard
+SubjectCode: CS101
+Hint: String class is an example
